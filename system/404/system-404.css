@@ -1,25 +1,25 @@
 /*! ©SEGA */
 .Main {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 .error {
-	margin-bottom: 50px;
-	color: transparent;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	font-size: 0;
+  margin-bottom: 50px;
+  color: transparent;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 0;
 }
 @media screen and (min-width: 601px) {
-	.error {
-		height: 834px;
-		background: url(assets/pc/error.png) top no-repeat;
-	}
+  .error {
+    height: 834px;
+    background: url(assets/pc/error.png) top no-repeat;
+  }
 }
 @media screen and (max-width: 600px) {
-	.error {
-		height: 480px;
-		background: url(assets/sp/error.png) top no-repeat;
-		background-size: 90%;
-	}
+  .error {
+    height: 480px;
+    background: url(assets/sp/error.png) top no-repeat;
+    background-size: 90%;
+  }
 }
